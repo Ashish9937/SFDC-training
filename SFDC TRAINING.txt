@@ -1,0 +1,653 @@
+https://ashishagraharilightining2-dev-ed--c.visualforce.com/apex/DoctorVFPage?&id=a072w00000FPIROAA5
+https://ashishagraharilightining2-dev-ed--c.visualforce.com/apex/DoctorVFPage?&id=a072w00000FPN8iAAH
+https://ashishagraharilightining2-dev-ed--c.visualforce.com/apex/DoctorVFPage?id=a072w00000FPO3DAAX&id=a082w000006LhvFAAS
+https://ashishagraharilightining2-dev-ed--c.visualforce.com/apex/DoctorVFPage?id=a072w00000FPIROAA5&id=a082w000006LhvFAAS
+https://ashishagraharilightining2-dev-ed--c.visualforce.com/apex/DoctorVFPage?id=a072w00000FPObSAAX&id=a082w000006LhvFAAS
+
+                         DAY-01
+
+To create salesforce trial version account:
+
+===================================
+
+https://www.salesforce.com/form/signup/freetrial_training.jsp
+
+ 
+
+ 
+
+Steps to create an Org:
+
+===================
+
+1) Open google chrome
+
+2) Type : "https://www.salesforce.com/form/signup/freetrial_training.jsp" in address bar
+
+4) Fill the Registration form
+
+5) You will get a mail to validate the identity
+
+6) Click on "Validate" and Set the password and security question
+
+ 
+
+ 
+
+To login to the Salesforce:
+
+======================
+
+1) Open google chrome then type "https://login.salesforce.com" in the address bar
+
+2) Enter user name & password then click on logon.
+
+ 
+
+ 
+
+* App Menu => Contains the available apps
+
+*Help & Training
+
+* Setup => Quick Search
+
+* User Menu => Displays My Profile, My Settings, Developer Console, Switching to Lightning Experience and Logout.
+
+*Global Search => To search the users info and records
+
+*Tabs => Represent objects
+
+ 
+
+ 
+
+CRM (Customer Relationship Management) :
+
+=======================================
+
+               It is a term that refers to practices, strategies and technologies that companies to manage and analyze customer   interaction and data throughout the customer lifecycle.
+
+ 
+
+               It is done with the goal of:
+
+                              1) Improving business relationships with customer
+
+                              2) Assisting in Customer Retention
+
+                              3) Driving sales growth
+
+ 
+
+ 
+
+Note:
+
+=====
+
+Salesforce CRM is SAAS
+
+Force.com is PAAS to develop the applications
+
+ 
+
+Object:
+
+=======
+
+               1) It is is similar to database tables
+
+               2) Objects can be classified into two types
+
+                              i) Standard objects: pre-defined CRM-oriented
+
+                              ii) Custom objects: developer-defined
+
+ 
+
+Fields:
+
+======
+
+               1) Fields are similar to database columns
+
+               2) These can be classified into two types
+
+                                             1) Standard fields: System generated upon object creation
+
+                                             2) Custom fields: Developer-defined
+
+ 
+
+Standard Fields:
+
+==============
+
+               1) ID
+
+               2) Name
+
+               3) Owner
+
+               4) Created By
+
+               5) Last Modified By
+
+               6) Created Date
+
+               7) Last Modified Date
+
+ 
+
+ID:
+
+===
+
+               1) A key which uniquely locates each and every record.
+
+               2) Each key has two versions:
+
+                              i) 15-digit, case-sensitive
+
+                              ii) 18-digit, case-insensitive
+
+               3) First 3 digits in ID identify the object type.
+
+ 
+
+To logon to Salesforce use the below URL:
+
+====================================
+
+               https://login.salesforce.com
+
+ 
+
+Terminology used in different Platforms:
+
+===================================
+
+ 
+
+Salesforce                          Database                                           Java
+
+=========                         ========                                          =====
+
+Object                                 Table                                   Class
+
+Field                                     Column                               Attribute
+
+Records                              Rows                                   Instances or Objects
+
+ 
+
+Creating a Custom Object:
+
+======================          
+
+Activty1:
+
+=======
+
+            Create an object called Position.
+
+Click on Setup=> Build => Create => Objects => Complete the object creation process
+
+ 
+
+Note:
+
+=====
+
+               The limit on the number of Custom Fields varies with your Salesforce Edition
+
+ 
+
+               * We can create 500 fields in the current Enterprise Edition
+
+               * 800 fields can be created in Custom Object in  Performance Edition
+
+               * 200 fields can be created in Custom Object in Developer Edition.
+
+               * Deleted fields are stored in Recycle Bin for 15 days after deletion.
+
+ 
+
+Data Types:
+
+===========
+
+Numeric Field Data Types:
+
+=======================
+
+               1) Number
+
+               2) Currency  : Default Currency is $
+
+               3) Percent
+
+ 
+
+Calendar Data Types:
+
+==================
+
+               1) Date  :
+
+               2) Date/Time
+
+ 
+
+Limited Option Data Types:
+
+=======================
+
+               1) Checkbox
+
+               2) Picklist
+
+               3) Picklist (Multi-Select)
+
+ 
+
+Formatted Text Data Types:
+
+========================
+
+               1) Email
+
+               2) Phone
+
+               3) URL
+
+ 
+
+Calculation Data Types:
+
+====================
+
+               1) Auto-Number
+
+                              * Select the display format
+
+                              * Increment by 1
+
+               2) Formula
+
+                              * Perform calculations on a record
+
+                              * Can span across objects
+
+               3) Roll-Up Summary
+
+                              * Created on a master
+
+                              * Allow calculations on details
+
+                              * It is a formula based on the relation ship between the objects
+
+ 
+
+Text Data Types:
+
+==============
+
+1) Text  :  Allows 255 characters in single line
+
+2) Text Area :  Allows 255 characters in multiple lines
+
+3) Text Area (Long) : Allows 300000 characters
+
+4) Text Area (Rich) : Allows formatted Characters (like Bold, Italic, Bullet Points)
+
+5) Encrypted
+
+ 
+
+Activity2:
+
+========
+
+Creating Fields in Position Object:
+
+=============================
+
+Create Fields in Position object based on Custom Object Assignment Document.
+
+ 
+
+Standard Objects in Salesforce:
+
+==========================
+
+i.             Account
+
+ii.            Contact
+
+iii.           Opportunity
+
+iv.           Case
+
+v.            Solution
+
+vi.           Campaign
+
+vii.          Lead
+
+viii.         User
+============================================================================================================================================================
+
+                                                        DAY-02
+
+
+Field Dependency:
+
+================
+
+               1) A field dependency is set up between a controlling picklist or checkbox and a dependent picklist.
+
+               2) The values in the dependent picklist will vary based on the value of the controlling field.
+
+ 
+
+ 
+
+Creating Field Dependencies:
+
+=========================
+
+* Create Field Dependecies between Status  and  Sub Status
+
+When Status is New : None of the values to be appeared in Sub-Status
+
+When Status is Open : Pending & Approved must be appeared in Sub-Status
+
+When Status is Closed : Not Approved, Filled and Cancelled must be appeared in Sub-Status
+
+ 
+
+* Create Field Dependecies between Department and Pay Grade
+
+When Department is Engineering:  ENG-100,ENG-200,ENG-300,ENG-400
+
+When Department is IT        : IT-100, IT-200, IT-300, IT-400
+
+When Department is Finance             : ACT-100, ACT-200, ACT-300, ACT-400
+
+When Department is Support             :C-100, C-200, C-300, C-400
+
+When Department is Sales                  :S-100, S-200, S-300, S-400
+
+ 
+
+ 
+
+Field Type                                         Controlling          Dependent
+
+=========                                        ==========        ==========
+
+Standard Picklist                                             Yes                        No
+
+Custom Picklist                                Yes                        Yes
+
+Custom Multi-Select Picklist                        No                         Yes
+
+Standard Checkbox                                       Yes                        No
+
+Custom Checkbox                                          Yes                        No
+
+ 
+
+ 
+
+Relationships:
+
+============
+
+               Relationships can be classified into two types
+
+                              1) One to Many    =>  Look up, Master-Details, Hierarchical and Self Relationship
+
+                              2) Many to Many => Junction Object
+
+ 
+
+ 
+
+Look up Relationship:
+
+===================
+
+               1) Loosely coupled, also referred to aggregation in database
+
+                              i) No cascade delete
+
+               2) Lookup can be between
+
+                              i) Two Custom Objects
+
+                              ii) Two Standard Objects
+
+                              iii) One Custom and One Standard Object
+
+               3) There can be a maximum of 40 lookup relationships per child
+
+               4) Child field value may be optional.
+
+ 
+
+ 
+
+Activity1:
+
+=======
+
+               Create a lookup relationship between Job Application and Position
+
+ 
+
+ 
+
+Master Details Relationship:
+
+========================
+
+               1) Tightly coupled also referred to as Composition in database terminologies.
+
+               2) Child field value is always required.
+
+               3) Allows Cascade delete of child records.
+
+               4) Ownership & Sharing on child objects are inherited from parent object.
+
+               5) Can be defined between two custom objects or between a custom object and a standard object, but Standard Object cannot be a Child
+
+               6) Maximum 2 master relationships per detail object
+
+               7) While setting up the Master-Detail Relationship between Parent and Child ensure Child Object doesn't have any records.
+
+               8) Master Details Relationship can be up to 3 layers deep
+
+ 
+
+ 
+
+Note: Master Object=> Parent
+
+            Details  Object=> Child
+
+ 
+
+Activity1:
+
+========
+
+Create a Master-Detail relationship between Interviewer and Position Objects
+
+ 
+
+Activty2:
+
+=======
+
+ 
+
+Create a Master-Detail relationship between Position and Job Posting Objects (You must create an object called Job Posting)
+
+ 
+
+Activity3:
+
+========
+
+Create a Master-Detail relationship between JobPosting and JobPostingSite objects.
+
+ 
+
+Hierarchical Relationship:
+
+=====================
+
+1) Hierarchical relationships link one user to another.
+
+2) Links a user record with another user record.
+
+3) Only used for user-to-user.
+
+4) Commonly used in Approval processes.
+
+ 
+
+Activity1:
+
+========
+
+Create Hierarchical Relationship between Position and User Object where User Object is named as Hiring Manager
+
+ 
+
+Lookup Filter:
+
+============
+
+1) To take valid data from lookup field we use Look up filter
+
+2) Used to limit search results for users.
+
+3) Can be created on lookup, master-detail and hierarchical fields.
+
+4) Look up filter are two types
+
+Static lookup: can be done using value reference
+
+Dynamic lookup: can be done using field reference
+
+ 
+
+Activity:
+
+=======
+
+Create a Look Filter to take only People Manager's as Hiring Manager's
+
+ 
+
+Hiring Manager>People Manager  => Equals        =>true
+
+Error: Hiring Manager must be a people manager
+
+ 
+
+ 
+
+Self Relationship:
+
+===============
+
+1) Self relationships link an object to itself.
+
+2) Allows for one record to reference another record of the same object.
+
+3) Only possible with Lookup relationships.
+
+4) Ownership, sharing, deletion are identical to Lookup relationships.
+
+ 
+
+Activity:
+
+=======
+
+Apply a lookup filter between on the Position object to restrict the options available for Department.
+
+Tasks:
+
+Create a lookup relationship with Position Object.
+
+Add a lookup filter by department.
+
+ 
+
+Related Position>Department  => equals => Field => Position>Department
+
+Position>Record ID => Not Equal to =>Field =>Related Position>Record ID
+
+ 
+
+Error Message: The related position must be in the same department. You cannot relate a position to itself.
+
+ 
+
+ 
+
+Many-to-Many Relationship:
+
+=========================
+
+               Allow for the relationship of two objects in a many-to-many fashion.
+
+ 
+
+               Ex: One Job can have many Applicants. Similarly one applicant can apply for many jobs.
+
+ 
+
+               Junction Objects can be classified into two types
+
+               1) Functional Junction Object
+
+                              (If a Custom Object is having two lookups then it becomes functional junction object)
+
+               2) Technical Junction Object
+
+                              (If a Custom Object is having 2 MD relationships then it becomes technical junction               object)
+
+ 
+
+Junction Object:
+
+==============
+
+               1) A junction object is a custom object with two relationships.
+
+               2) Used to link two other objects in order to build a many-to-many relationship between them.
+
+               3) When creating a junction object, consider the following:
+
+                              i) Name the object with a label that indicates its purpose.
+
+                              ii) Use the auto-number data type.
+
+                              iii) Junction object records are deleted when either associated master record is              deleted and placed in the Recycle Bin.
+
+                              iv) However, junction object records are deleted permanently when both the associated master objects are deleted.
+
+ 
+============================================================================================================================================================
+                                                              DAY-03
+
+
+        page building and backend->https://trailhead.salesforce.com/content/learn/projects/workshop-override-standard-action/override_1?trailmix_creator_id=sfdcneedtospeed&trailmix_slug=lightning-basics
+ 
